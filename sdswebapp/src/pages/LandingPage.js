@@ -3,6 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 
+
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
@@ -14,7 +15,9 @@ export default function landingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
+    <>
     <div className="isolate min-h-screen bg-[#504136]">
+      <Image src ="/images/lpage.svg" alt = "landing page background" layout = "fill" objectFit = "cover" className="absolute inset-0 w-full h-full object-cover -z-10" />
       <div className="absolute inset-x-0 top-[10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[20rem]">
       </div>
       <div className="px-6 pt-6 lg:px-8">
@@ -22,7 +25,7 @@ export default function landingPage() {
           <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Stos Digial Solutions</span>
                 <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
               </a>
               <button
@@ -75,11 +78,11 @@ export default function landingPage() {
                     alt="SDS"
                     />
                 </div>
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Stos Digial Solutions
+              <h1 className="text-2xl font-bold tracking-tight text-black sm:text-4xl italic underline decoration-wavy [text-shadow:_2px_1px_1px_rgb(255_255_255_/_100%)]">
+                STOS DIGITAL SOLUTIONS
               </h1>
               <p className="mt-6 text-lg leading-8 text-white">
-                Stos Digial Solutions is a software development company that provides a wide range of services to help you grow your business.
+                Stos Digital Solutions is a software development company that provides a wide range of services to help you grow your business.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -97,5 +100,6 @@ export default function landingPage() {
         </div>
       </main>
     </div>
+    </>
   )
 }
