@@ -5,10 +5,10 @@ import Image from 'next/image'
 const About = () => {
   return (
     <>
-      <section className="bg-[#493C31] pt-24 pb-24 overflow-hidden font-basefont drop-shadow-[4px_1px_0px_rgba(0,0,0,1)]">
+      <section className="bg-[#493C31] pt-8 pb-8 overflow-hidden font-basefont drop-shadow-[4px_1px_0px_rgba(0,0,0,1)]">
         <div className="container content-center justify-center px-6 mx-auto drop-shadow-2xl">
           <div className="items-center content-center justify-center justify-items-center sm:flex drop-shadow-2xl">
-          <Image src="/images/about.jpg" alt="Picture of the author" width={450} height={450} className="pb-8 drop-shadow-2xl" />
+          <Image src="/images/about.jpg" alt="Picture of the author" width={450} height={450} className="pb-8 drop-shadow-[0px_0px_15px_rgba(0,0,0,1)]" />
           <div className='flex flex-col'>
           <h1 className="text-4xl text-center text-white md:text-5xl drop-shadow-[0px_0px_8px_rgba(0,0,0,1)]">
               About Me
