@@ -10,7 +10,7 @@ const sentence = {
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden bg-repeat font-basefont ">
+    <div className="relative w-full h-full overflow-hidden bg-repeat font-basefont">
       <div class="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}} >
         <div className="italic text-center text-white font text-7xl">
         <h1 className='subpixel-antialiased drop-shadow-[4px_1px_5px_rgba(0,0,0,1)] '>Discover your digital solutions</h1>

@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="">
-      <div class="relative overflow-hidden bg-repeat font-basefont">
+      <div class="relative overflow-hidden bg-repeat font-basefont ">
         <div
           class="bg-repeat"
           src="/images/mainbg.svg"
@@ -11,7 +11,7 @@ const Projects = () => {
           height={50}
           style={{ zIndex: -10, background: "repeat, url(/images/mainbg.svg)" }}
         >
-          <div className="content-center justify-center text-center align-middle">
+          <div className="content-center justify-center text-center align-middle drop-shadow-[0px_0px_25px_rgba(0,0,0,1)] pb-8">
             <div class="text-5xl font-thin text-center text-white container  px-6 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
               <h1>Projects</h1>
               <div>
