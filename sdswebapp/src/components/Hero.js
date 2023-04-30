@@ -34,7 +34,6 @@ const Hero = () => {
               <br></br>engineer <br></br>& <br></br></h1>
               <div className='flex content-center justify-center text-center sm:text-5xl '>
               <h1 className="animate-bounce">D</h1>
-              <h1 className="animate-ping">e</h1>
               <h1 className="animate-pulse" >e</h1>
               <h1 className="animate-bounce">s</h1>
               <h1 className="animate-ping">i</h1>

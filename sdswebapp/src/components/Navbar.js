@@ -88,9 +88,9 @@ export default function Example() {
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Services
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Projects
-          </a>
+          </a> */}
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Contact
           </a>
@@ -132,12 +132,12 @@ export default function Example() {
                 >
                   Services
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   projects
-                </a>
+                </a> */}
                 <a
                   href="#"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"

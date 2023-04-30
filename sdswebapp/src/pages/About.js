@@ -15,8 +15,8 @@ const About = () => {
             </h1>
             <p className="max-w-md mt-4 text-center text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
               I am a software engineer based in California. I have a passion for
-              creating beautiful and functional websites and applications. I
-              specialize in front-end development, back-end development and database management.
+              creating beautiful and functional websites applications. My
+              specialties are in front-end development, back-end development and database management.
             </p>
           </div>
         </div>
