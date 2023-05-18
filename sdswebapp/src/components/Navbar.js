@@ -15,46 +15,6 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 
-const products = [
-  {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
-    href: "#",
-    icon: ChartPieIcon,
-  },
-  {
-    name: "Engagement",
-    description: "Speak directly to your customers",
-    href: "#",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
-    href: "#",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    href: "#",
-    icon: SquaresPlusIcon,
-  },
-  {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "#",
-    icon: ArrowPathIcon,
-  },
-];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -68,7 +28,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Stos Digial Solutions</span>
-            <img className="w-auto h-8" src="/images/SDS.svg" alt="" />
+            <img className="w-auto h-8" src="/images/SDS.svg" alt=" logo" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -82,16 +42,16 @@ export default function Example() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/About" className="text-sm font-semibold leading-6 text-gray-900">
             About
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/Services" className="text-sm font-semibold leading-6 text-gray-900">
             Services
           </a>
           {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Projects
           </a> */}
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/Contact" className="text-sm font-semibold leading-6 text-gray-900">
             Contact
           </a>
         </Popover.Group>
@@ -121,13 +81,13 @@ export default function Example() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="py-6 space-y-2">
                 <a
-                  href="#"
+                  href="/About"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   About
                 </a>
                 <a
-                  href="#"
+                  href="/Services"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Services
@@ -139,7 +99,7 @@ export default function Example() {
                   projects
                 </a> */}
                 <a
-                  href="#"
+                  href="/Contact"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Contact

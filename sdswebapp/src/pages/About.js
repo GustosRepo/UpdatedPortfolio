@@ -22,60 +22,60 @@ const About = () => {
         </div>
         </div>
         <div>
-        <div class="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}} >
+        <div className="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}} >
           <h1 className="text-4xl text-center text-white md:text-5xl drop-shadow-[2px_2px_3px_rgba(0,0,0,1)] pt-8">
           Skills
           </h1>
           <div className="flex flex-wrap justify-center mt-0 ">
-          <div class="container my-2 px-6 mx-auto shadow-2xl solid">
-            <section class="mb-2 text-black text-center  ">
-              <h2 class="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">front end technologies</h2>
-              <div class="flex md:grid-cols-2 lg:grid-cols-5 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/html.svg" width={25} height={50} class="img-fluid grayscale" />
+          <div className="container px-6 mx-auto my-2 shadow-2xl solid">
+            <section className="mb-2 text-center text-black ">
+              <h2 className="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">front end technologies</h2>
+              <div className="flex md:grid-cols-2 lg:grid-cols-5 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/html.svg" width={25} height={50} className="img-fluid grayscale" />
                   </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/css.svg" width={25} height={50} class="img-fluid grayscale" />                
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/css.svg" width={25} height={50} className="img-fluid grayscale" />                
                   </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/jss.svg" width={25} height={75} class="img-fluid grayscale" />                
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/jss.svg" width={25} height={75} className="img-fluid grayscale" />                
                   </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/react.svg" width={35} height={50} class="img-fluid grayscale" />                
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/react.svg" width={35} height={50} className="img-fluid grayscale" />                
                   </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/next.svg" width={65} height={50} class="img-fluid grayscale" />                
-                  </div>
-                </div>
-              </section>
-              <section class="mb-2 text-black text-center  ">
-              <h2 class="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">backend technologies</h2>
-              <div class="flex md:grid-cols-2 lg:grid-cols-4 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
-                  <div class="mb-12 lg:mb-0 mx-auto ">
-                  <Image src="/images/java.svg" width={25} height={50} class="img-fluid grayscale" />
-                  </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/js.svg" width={45} height={50} class="img-fluid grayscale" />                
-                  </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/ex.svg" width={45} height={75} class="img-fluid grayscale" />                
-                  </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/postgres.svg" width={45} height={50} class="img-fluid grayscale" />                
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/next.svg" width={65} height={50} className="img-fluid grayscale" />                
                   </div>
                 </div>
               </section>
-              <section class="mb-2 text-black text-center ">
-              <h2 class="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">development tools</h2>
-              <div class="flex md:grid-cols-2 lg:grid-cols-3 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/figma.svg" width={35} height={50} class="img-fluid grayscale" />
+              <section className="mb-2 text-center text-black ">
+              <h2 className="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">backend technologies</h2>
+              <div className="flex md:grid-cols-2 lg:grid-cols-4 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
+                  <div className="mx-auto mb-12 lg:mb-0 ">
+                  <Image src="/images/java.svg" width={25} height={50} className="img-fluid grayscale" />
                   </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/ai.svg" width={35} height={50} class="img-fluid grayscale" />                
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/js.svg" width={45} height={50} className="img-fluid grayscale" />                
                   </div>
-                  <div class="mb-12 lg:mb-0 mx-auto">
-                  <Image src="/images/ps.svg" width={35} height={75} class="img-fluid grayscale" />                
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/ex.svg" width={45} height={75} className="img-fluid grayscale" />                
+                  </div>
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/postgres.svg" width={45} height={50} className="img-fluid grayscale" />                
+                  </div>
+                </div>
+              </section>
+              <section className="mb-2 text-center text-black ">
+              <h2 className="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">development tools</h2>
+              <div className="flex md:grid-cols-2 lg:grid-cols-3 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/figma.svg" width={35} height={50} className="img-fluid grayscale" />
+                  </div>
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/ai.svg" width={35} height={50} className="img-fluid grayscale" />                
+                  </div>
+                  <div className="mx-auto mb-12 lg:mb-0">
+                  <Image src="/images/ps.svg" width={35} height={75} className="img-fluid grayscale" />                
                   </div>
                 </div>
               </section>

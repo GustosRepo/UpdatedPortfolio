@@ -6,20 +6,20 @@ import Card3 from "../components/Card3";
 const Services = () => {
   return (
     <div className="flex justify-center ">
-      <div class="relative overflow-hidden bg-repeat font-basefont">
+      <div className="relative overflow-hidden bg-repeat font-basefont">
         <div
-          class="bg-repeat"
+          className="bg-repeat"
           src="/images/mainbg.svg"
           width={50}
           height={50}
           style={{ zIndex: -10, background: "repeat, url(/images/mainbg.svg)" }}
         >
           <div className="content-center justify-center text-center align-middle">
-            <div class="text-5xl font-thin text-center text-white container  px-6 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
+            <div className="text-5xl font-thin text-center text-white container  px-6 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
               Services
             </div>
             <div className="flex shadow-2xl solid ">
-              <div class="mt-4 px-9 flex flex-wrap justify-items-center	 text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid">
+              <div className="mt-4 px-9 flex flex-wrap justify-items-center	 text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid">
                 <h1 className="px-10 text-center drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid ">
                   My services include web design, web development, and graphic
                   design. additionally, I offer a variety of services to help
@@ -38,7 +38,7 @@ const Services = () => {
         </div>
         <div className="content-center justify-center text-center align-middle">
           <div
-            class="bg-repeat"
+            className="bg-repeat"
             src="/images/mainbg.svg"
             width={50}
             height={50}
@@ -47,11 +47,11 @@ const Services = () => {
               background: "repeat, url(/images/mainbg.svg)",
             }}
           >
-            <div class="text-5xl font-thin text-center text-white container  px-6 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
+            <div className="text-5xl font-thin text-center text-white container  px-6 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
               Flexibility and Affordability is my mission
             </div>
             <div className="flex justify-center pb-10 text-center shadow-2xl solid">
-              <div class="mt-4 px-9 flex flex-wrap justify-items-center	 text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid">
+              <div className="mt-4 px-9 flex flex-wrap justify-items-center	 text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid">
                 <h1 className="px-10 text-center drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid ">
                   I recognize that every business is unique and therefore, I
                   offer multiple solutions and options tailored to your

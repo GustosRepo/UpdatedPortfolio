@@ -11,7 +11,7 @@ const sentence = {
 const Hero = () => {
   return (
     <div className="relative w-full h-full overflow-hidden bg-repeat font-basefont">
-      <div class="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}} >
+      <div className="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}} >
         <div className="italic text-center text-white font text-7xl">
         <h1 className='subpixel-antialiased drop-shadow-[4px_1px_5px_rgba(0,0,0,1)] '>Discover your digital solutions</h1>
         </div>
@@ -26,7 +26,7 @@ const Hero = () => {
               </div>
             </div>
             <div className='text-center drop-shadow-[1px_1px_12px_rgba(0,0,0,1)]'>
-              <Image src='/images/heropic.jpg' alt="Picture of the author"
+              <Image src='/images/heropic.jpg' priority alt="Picture of the author"
               contain width={450} height={300} className='z-20 content-center object-coverdrop-shadow-[1px_5px_20px_rgba(0,0,0,1)] solid ' />
             </div>
             <div className='flex flex-col content-center justify-center text-center  rounded-sm shadow-2xl  drop-shadow-[4px_1px_0px_rgba(0,0,0,1)]'>
