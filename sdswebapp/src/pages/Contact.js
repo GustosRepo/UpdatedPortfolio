@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Contact = () => {
   const [fullname, setFullname] = useState("");
@@ -255,7 +256,7 @@ const Contact = () => {
                 fill="currentColor"
               />
             </svg>
-            <p className="font-bold text-gray-400">+91 9293929392</p>
+            <p className="font-bold text-gray-400">+1 7025302429</p>
           </div>
           <div className="flex flex-row items-center p-8 space-x-4 transition duration-200 rounded-md shadow cursor-pointer card hover:shadow-lg">
             <svg
@@ -274,7 +275,7 @@ const Contact = () => {
               />
             </svg>
             <p className="font-bold text-gray-400">
-              freealancer@mywebsite.com
+              sto@stosdigital.com
             </p>
           </div>
           <div className="flex flex-row items-center p-8 space-x-4 transition duration-200 rounded-md shadow cursor-pointer card hover:shadow-lg">
@@ -300,7 +301,7 @@ const Contact = () => {
               />
             </svg>
             <p className="font-bold text-gray-400">
-              freealancer@mywebsite.com
+            <Link href="https://www.upwork.com/freelancers/~01f4fe238ae73faa26">upwork</Link>
             </p>
           </div>
         </div>

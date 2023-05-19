@@ -26,7 +26,7 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Stos Digial Solutions</span>
             <img className="w-auto h-8" src="/images/SDS.svg" alt=" logo" />
           </a>

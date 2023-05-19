@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Container } from 'postcss'
+import Link from 'next/link'
 
 const line1 = "Discover Your Digital Solutions"
 const line2 = "meooow"
@@ -20,9 +21,9 @@ const Hero = () => {
           <section className='pb-10 lg:flex '>
             <div className="flex text-center rounded-sm shadow-2xl font-basefont " >
               <div className='flex content-center justify-between text-center align-bottom lg:-rotate-90 lg:text-sm drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]'>
-                <h1 className='text-lg pl-14 lg:pt-60'> LinkedIn</h1>
-                <h1 className='text-lg pl-14 lg:pt-60 '> Github </h1>
-                <h1 className='text-lg pl-14 lg:pt-60 '> twitter</h1>
+                <h1 className='text-lg pl-14 lg:pt-60'><Link href="https://www.linkedin.com/in/sto-hernandez/">LinkedIn</Link></h1>
+                <h1 className='text-lg pl-14 lg:pt-60 '> <Link href="https://github.com/GustosRepo">github</Link></h1>
+                <h1 className='text-lg pl-14 lg:pt-60 '><Link href="https://twitter.com/StosDigital">twitter</Link></h1>
               </div>
             </div>
             <div className='text-center drop-shadow-[1px_1px_12px_rgba(0,0,0,1)]'>
