@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
 import Card3 from "../components/Card3";
+import MxCard from "../components/MxCard";
 
 const Services = () => {
   return (
@@ -36,7 +37,7 @@ const Services = () => {
             <Card3 />
           </div>
         </div>
-        <div className="content-center justify-center text-center align-middle">
+        <div className="content-center justify-center text-center align-middle justify-items-center">
           <div
             className="bg-repeat"
             src="/images/mainbg.svg"
@@ -45,21 +46,8 @@ const Services = () => {
             style={{
               zIndex: -10,
               background: "repeat, url(/images/mainbg.svg)",
-            }}
-          >
-            <div className="text-5xl font-thin text-center text-white container  px-6 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
-              Flexibility and Affordability is my mission
-            </div>
-            <div className="flex justify-center pb-10 text-center shadow-2xl solid">
-              <div className="mt-4 px-9 flex flex-wrap justify-items-center	 text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid">
-                <h1 className="px-10 text-center drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]  shadow-2xl solid ">
-                  I recognize that every business is unique and therefore, I
-                  offer multiple solutions and options tailored to your
-                  business. I welcome you to contact me for further information
-                  and to discuss your business' plan.
-                </h1>
-              </div>
-            </div>
+            }}>
+            <MxCard />
           </div>
         </div>
       </div>

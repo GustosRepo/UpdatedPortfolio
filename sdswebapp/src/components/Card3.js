@@ -10,8 +10,8 @@ const Card3 = () => {
             <h5 className="mb-4 text-xl font-medium text-black drop-shadow-[1px_1px_1px_rgba(255,255,255,.75)]">Executive plan</h5>
             <div className="flex items-baseline text-gray-900 dark:text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">
                 <span className="text-3xl font-semibold">$</span>
-                <span className="text-5xl font-extrabold tracking-tight drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">500</span>
-                <span className="ml-1 text-xl font-normal text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">/month</span>
+                <span className="text-5xl font-extrabold tracking-tight drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">750</span>
+                <span className="ml-1 text-xl font-normal text-white drop-shadow-[2px_2px_1px_rgba(0,0,0,1)]">/project</span>
             </div>
             <ul role="list" className="space-y-5 my-7">
                 <li className="flex space-x-3">
@@ -21,15 +21,6 @@ const Card3 = () => {
                 <li className="flex space-x-3">
                     <svg aria-hidden="true" className="flex-shrink-0 w-5 h-5 text-white dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                     <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">custom theme || style</span>
-                </li>
-                <li className="flex space-x-3">
-
-                    <svg aria-hidden="true" className="flex-shrink-0 w-5 h-5 text-white dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                    <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Four updates per month</span>
-                </li>
-                <li className="flex space-x-3 ">
-                    <svg aria-hidden="true" className="flex-shrink-0 w-5 h-5 text-white dark:text-white " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                    <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">weekly maintenance</span>
                 </li>
                 <li className="flex space-x-3 ">               
                     <svg aria-hidden="true" className="flex-shrink-0 w-5 h-5 text-gray-400 dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -45,7 +36,7 @@ const Card3 = () => {
                 </li>
                 <li className="flex space-x-3 ">
                     <svg aria-hidden="true" className="flex-shrink-0 w-5 h-5 text-gray-400 dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                    <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400"> custom Logo || Branding</span>
+                    <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400"> custom Logo</span>
                 </li>
                 <li className="flex space-x-3 ">
                     <svg aria-hidden="true" className="flex-shrink-0 w-5 h-5 text-gray-400 dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
