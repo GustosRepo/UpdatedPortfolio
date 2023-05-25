@@ -14,6 +14,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 
 export default function Example() {
@@ -26,10 +27,10 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Stos Digial Solutions</span>
             <img className="w-auto h-8" src="/images/SDS.svg" alt=" logo" />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -42,18 +43,18 @@ export default function Example() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="/About" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="/About" className="text-sm font-semibold leading-6 text-gray-900">
             About
-          </a>
-          <a href="/Services" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link href="/Services" className="text-sm font-semibold leading-6 text-gray-900">
             Services
-          </a>
+          </Link>
           {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Projects
           </a> */}
-          <a href="/Contact" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="/Contact" className="text-sm font-semibold leading-6 text-gray-900">
             Contact
-          </a>
+          </Link>
         </Popover.Group>
       </nav>
       <Dialog
@@ -65,9 +66,9 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#493C31] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-900"
@@ -80,30 +81,30 @@ export default function Example() {
           <div className="flow-root mt-6">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="py-6 space-y-2">
-                <a
+                <Link
                   href="/About"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   About
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/Services"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Services
-                </a>
+                </Link>
                 {/* <a
                   href="#"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   projects
                 </a> */}
-                <a
+                <Link
                   href="/Contact"
                   className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>

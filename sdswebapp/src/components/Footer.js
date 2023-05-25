@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}}>
             <div className="w-full max-w-screen-xl p-4 mx-auto md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <a href="/" class="flex items-center mb-4 sm:mb-0">
+                    <Link href="/" class="flex items-center mb-4 sm:mb-0">
                         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Stos Digital Solutions</span>
-                    </a>
+                    </Link>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <Link href="/About" className="mr-4 hover:underline md:mr-6 ">About</Link>

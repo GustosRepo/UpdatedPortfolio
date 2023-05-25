@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -39,7 +40,7 @@ const Projects = () => {
                           really express her brand. I created a new website that
                           is modern and easy to navigate.
                         </p>
-                        <a
+                        <Link
                           href="#"
                           title=""
                           className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
@@ -59,7 +60,7 @@ const Projects = () => {
                               clip-rule="evenodd"
                             />
                           </svg>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="space-y-4">
@@ -71,11 +72,11 @@ const Projects = () => {
                         </h3>
                         <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
                           my customer came with an idea for her business, she
-                          was inspired by the 90's and wanted to create a
+                          was inspired by the 90s and wanted to create a
                           landing page that would express her brand for a soft
                           launch.
                         </p>
-                        <a
+                        <Link
                           href="#"
                           title=""
                           className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
@@ -95,7 +96,7 @@ const Projects = () => {
                               clip-rule="evenodd"
                             />
                           </svg>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="space-y-4">
@@ -111,7 +112,7 @@ const Projects = () => {
                           able to create a logo that she loved and made her
                           brand stand out.
                         </p>
-                        <a
+                        <Link
                           href="#"
                           title=""
                           className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
@@ -131,7 +132,7 @@ const Projects = () => {
                               clip-rule="evenodd"
                             />
                           </svg>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </section>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Licensing = () => {
   return (
@@ -66,8 +67,8 @@ const Licensing = () => {
                   provisions of this policy. Upon termination, you must cease
                   using our software and destroy any copies in your possession.
                   <br></br>
-                  6. Disclaimer of Warranty Our software is provided on an "as
-                  is" basis, without warranties of any kind, either expressed or
+                  6. Disclaimer of Warranty Our software is provided on an as
+                  is basis, without warranties of any kind, either expressed or
                   implied. We do not warrant that the software will be
                   error-free, secure, or compatible with your requirements. You
                   assume all risks and responsibilities for the use of our
@@ -80,7 +81,7 @@ const Licensing = () => {
                   the possibility of such damages.
                   <br></br>
                   8. Governing Law This Licensing Policy shall be governed by
-                  and construed in accordance with the laws of [Jurisdiction],
+                  and construed in accordance with the laws of our Jurisdiction,
                   without regard to its conflict of laws principles.
                   <br></br>
                   By using our software products and services, you acknowledge
@@ -89,12 +90,12 @@ const Licensing = () => {
                   not use our software.
                 </h1>
                 <div className="flex items-center justify-center mt-10 gap-x-6">
-                  <a
+                  <Link
                     href="/"
                     className=" animate-bounce rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black drop-shadow-[2px_10px_8px_rgba(0,0,0,1)]"
                   >
                     Home
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

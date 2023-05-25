@@ -2,18 +2,10 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 
-
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
 
 export default function landingPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <>
     <div className="isolate  justify-center  bg-[#493C31]">
@@ -38,15 +30,15 @@ export default function landingPage() {
                 Stos Digital Solutions is a software development company that provides a wide range of services to help you grow your business.
               </p>
               <div className="flex items-center justify-center mt-10 gap-x-6">
-                <a
+                <Link
                   href="/Services"
                   className=" rounded-md bg-[#312821] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black drop-shadow-[2px_10px_8px_rgba(0,0,0,1)]"
                 >
                   Free Quote
-                </a>
-                <a href="/" className=" animate-pulse text-sm font-semibold leading-6 text-gray-900  drop-shadow-[0px_0px_4px_rgba(180,180,180,1)] ">
+                </Link>
+                <Link href="/" className=" animate-pulse text-sm font-semibold leading-6 text-gray-900  drop-shadow-[0px_0px_4px_rgba(180,180,180,1)] ">
                   Learn more <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

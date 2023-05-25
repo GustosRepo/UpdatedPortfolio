@@ -32,19 +32,19 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">front end technologies</h2>
               <div className="flex md:grid-cols-2 lg:grid-cols-5 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/html.svg" width={25} height={50} className="img-fluid grayscale" />
+                  <Image src="/images/html.svg" alt="logo" width={25} height={50} className="img-fluid grayscale" />
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/css.svg" width={25} height={50} className="img-fluid grayscale" />                
+                  <Image src="/images/css.svg" alt="logo" width={25} height={50} className="img-fluid grayscale" />                
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/jss.svg" width={25} height={75} className="img-fluid grayscale" />                
+                  <Image src="/images/jss.svg" alt="logo" width={25} height={75} className="img-fluid grayscale" />                
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/react.svg" width={35} height={50} className="img-fluid grayscale" />                
+                  <Image src="/images/react.svg" alt="logo" width={35} height={50} className="img-fluid grayscale" />                
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/next.svg" width={65} height={50} className="img-fluid grayscale" />                
+                  <Image src="/images/next.svg" alt="logo" width={65} height={50} className="img-fluid grayscale" />                
                   </div>
                 </div>
               </section>
@@ -52,16 +52,16 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">backend technologies</h2>
               <div className="flex md:grid-cols-2 lg:grid-cols-4 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
                   <div className="mx-auto mb-12 lg:mb-0 ">
-                  <Image src="/images/java.svg" width={25} height={50} className="img-fluid grayscale" />
+                  <Image src="/images/java.svg" alt="logo" width={25} height={50} className="img-fluid grayscale" />
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/js.svg" width={45} height={50} className="img-fluid grayscale" />                
+                  <Image src="/images/js.svg" alt="logo" width={45} height={50} className="img-fluid grayscale" />                
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/ex.svg" width={45} height={75} className="img-fluid grayscale" />                
+                  <Image src="/images/ex.svg" alt="logo" width={45} height={75} className="img-fluid grayscale" />                
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/postgres.svg" width={45} height={50} className="img-fluid grayscale" />                
+                  <Image src="/images/postgres.svg" alt="logo" width={45} height={50} className="img-fluid grayscale" />                
                   </div>
                 </div>
               </section>
@@ -69,13 +69,13 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-1 drop-shadow-[1.5px_1.5px_.25px_rgba(255,255,255,1)]">development tools</h2>
               <div className="flex md:grid-cols-2 lg:grid-cols-3 px-22 drop-shadow-[1px_1px_1px_rgba(255,255,255,1)]">
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/figma.svg" width={35} height={50} className="img-fluid grayscale" />
+                  <Image src="/images/figma.svg" alt="logo" width={35} height={50} className="img-fluid grayscale" />
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/ai.svg" width={35} height={50} className="img-fluid grayscale" />                
+                  <Image src="/images/ai.svg" alt="logo" width={35} height={50} className="img-fluid grayscale" />                
                   </div>
                   <div className="mx-auto mb-12 lg:mb-0">
-                  <Image src="/images/ps.svg" width={35} height={75} className="img-fluid grayscale" />                
+                  <Image src="/images/ps.svg" alt="logo" width={35} height={75} className="img-fluid grayscale" />                
                   </div>
                 </div>
               </section>

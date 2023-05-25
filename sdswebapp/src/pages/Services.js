@@ -26,7 +26,7 @@ const Services = () => {
                   design. additionally, I offer a variety of services to help
                   you grow your business online. My services are tailored to
                   your needs and budgets therefore, I offer competetive services
-                  as packages or a la carte depending on your bussiness' needs.
+                  as packages or a la carte depending on your bussiness needs.
                 </h1>
               </div>
             </div>
