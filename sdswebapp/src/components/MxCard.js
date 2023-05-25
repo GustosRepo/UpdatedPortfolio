@@ -2,8 +2,8 @@ import React from 'react'
 
 const MxCard = () => {
   return (
-    <>
-    <div className=" flex flex-wrap text-5xl font-thin text-center text-white container  px-16 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)] justify-center justify-items-center	">
+    <div className="opacity-90">
+    <div className=" rounded-lg flex flex-wrap text-5xl font-thin text-center text-white container  px-16 mx-auto drop-shadow-[2px_2px_1px_rgba(0,0,0,1)] justify-center justify-items-center opacity-80	">
         Monthly Maintenance plans
         </div>
         <div className="flex justify-center pb-8 text-center shadow-2xl solid ">
@@ -69,13 +69,13 @@ const MxCard = () => {
                     security updates
                 </th>
                 <td className="px-3 py-4 text-center ">
-                    x
+                ✔
                 </td>
                 <td className="px-3 py-4 text-center">
-                    x
+                ✔
                 </td>
                 <td className="px-3 py-4 text-center">
-                    x
+                ✔
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-black dark:border-gray-700">
@@ -97,13 +97,13 @@ const MxCard = () => {
                 User experience optimization
                 </th>
                 <td className="px-3 py-4 text-center">
-                    x
+                
                 </td>
                 <td className="px-3 py-4 text-center">
-                    x
+                
                 </td>
                 <td className="px-3 py-4 text-center">
-                    x
+                ✔
                 </td>
             </tr>
             <tr className="bg-white border-b dark:bg-black dark:border-gray-700">
@@ -126,7 +126,7 @@ const MxCard = () => {
 
         </div>
         </div>
-    </>
+    </div>
   )
 }
 

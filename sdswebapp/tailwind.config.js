@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         basefont: ["Cinzel", "sans-serif"],
+        animation: {
+          wiggle: 'wiggle 1s ease-in-out infinite',
+        }
 
     },
   },

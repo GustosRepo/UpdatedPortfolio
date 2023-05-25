@@ -92,13 +92,13 @@ const Contact = () => {
     console.log(fullname, email, subject, message);
   };
   return (
-    <main className="dark:bg-[#493C31] drop-shadow-[4px_1px_0px_rgba(0,0,0,1)] font-basefont">
+    <main className="dark:bg-[#493C31] drop-shadow-[4px_1px_0px_rgba(0,0,0,1)] font-basefont w-full h-full">
     <div className="bg-repeat" src="/images/mainbg.svg" width={50} height={50} style={{zIndex:-10, background: 'repeat, url(/images/mainbg.svg)'}} >
-      <header className="grid grid-cols-1 gap-4 p-8 pt-10 md:grid-cols-2 lg:px-40 bg-black dark:bg-[#493C31] md:h-96 ">
+      <header className=" h-full grid grid-cols-1 gap-4 p-8 pt-10 md:grid-cols-2 lg:px-40 bg-black dark:bg-[#493C31] md:h-96 ">
         <div className="mx-auto mb-10 md:mt-20">
           <div className="inline-block bg-black badge rounded-xl">
             <p className="px-4 py-1 text-base font-light text-gray-50">
-              Lets talk
+              Get Started
             </p>
           </div>
           <h1 className="mt-4 text-4xl font-bold text-gray-700 dark:text-gray-50 drop-shadow-[4px_1px_0px_rgba(0,0,0,1)]">
@@ -106,7 +106,7 @@ const Contact = () => {
           </h1>
           <p className="mt-4 text-sm font-light text-gray-700 dark:text-gray-200 drop-shadow-[1px_1px_0px_rgba(0,0,0,1)]">
             Fill the form and send in your queries. I will respond as soon as I
-            can. Alternatively, You can reach out to me at my email address.
+            can. Alternatively, You can reach out to me at my email address or any of my social media handles.
           </p>
         </div>
         <form
@@ -225,7 +225,7 @@ const Contact = () => {
           </div>
         </form>
       </header>
-      <section className="drop-shadow-[5px_2px_15px_rgba(0,0,0,1)]">
+      <section className="drop-shadow-[5px_2px_15px_rgba(0,0,0,1)] pb-28">
         <h1
           className={`text-4xl font-bold text-center md:mt-60 my-10 gradient-text text-white drop-shadow-[5px_2px_15px_rgba(0,0,0,1)] ${
             errors ? "md:mt-80" : "md:mt-60"

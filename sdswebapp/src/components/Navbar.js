@@ -20,7 +20,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="relative bg-gradient-to-r from-[#342a23] to-[#352b24e0] font-basefont ">
+    <header className="relative bg-gradient-to-r from-[#352b22] to-[#967b65e0] font-basefont ">
       <nav
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8 drop-shadow-[1px_1px_1px_rgba(255,255,255,.4)]"
         aria-label="Global"
