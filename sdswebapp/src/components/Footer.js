@@ -1,5 +1,6 @@
 import React from 'react'
 import Privacy from '../pages/Privacy'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
